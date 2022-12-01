@@ -1,0 +1,29 @@
+/* Max width changes 15 px at each breakpoint
+*/
+.container {
+    border: 2px solid black;
+}
+
+/* Always 100% wide
+*/
+
+
+.row {
+    border: 2px solid black;
+}
+
+.col-5 {
+    border: 1px solid black;
+}
+
+.col-7 {
+    border: 1px solid black;
+}
+
+.col-8 {
+    border: 1px solid black;
+}
+
+.col-4 {
+    border: 1px solid black;
+}
