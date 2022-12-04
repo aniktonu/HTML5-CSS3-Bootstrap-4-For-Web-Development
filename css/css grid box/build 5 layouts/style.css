@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 30px;
+    /* width: 100%;
+    min-height: 100vh;
+    border: 2px solid rgb(228, 16, 16); */
+}
+
+[class^="box-"] {
+    display: grid;
+    place-items: center;
+    border: 3px solid red;
+
+}
+
+/* .container {
+    display: grid;
+    height: 100vh;
+    gap: 10px;
+    border: 2px solid black;
+    grid-template-rows: auto 1fr auto;
+} */
+
+/* .container {
+    display: grid;
+    height: 100vh;
+    gap: 10px;
+    border: 2px solid black;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.box-1 {
+    grid-column: 1 / 5;
+}
+
+.box-2 {
+    grid-column: 5 / 13;
+} */
+
+/* .container {
+    display: grid;
+    height: 100vh;
+    gap: 10px;
+    border: 2px solid black;
+    grid-template-columns: repeat(12, 1fr);
+
+}
+
+.box-1 {
+    grid-column: 1 / 13;
+}
+
+.box-2 {
+    grid-column: 1 / 9;
+}
+
+.box-3 {
+    grid-column: 9 / 13;
+} */
+
+/* .container {
+    display: grid;
+    height: 100vh;
+    gap: 10px;
+    border: 1px solid black;
+    grid-template-areas: "aaaa aaaa aaaa"
+        "bbbb bbbb eeee"
+        "cccc dddd eeee";
+
+}
+
+.box-1 {
+    grid-area: aaaa;
+
+}
+
+.box-2 {
+    grid-area: bbbb;
+
+}
+
+.box-3 {
+    grid-area: cccc;
+
+}
+
+.box-4 {
+    grid-area: dddd;
+
+}
+
+.box-5 {
+    grid-area: eeee;
+
+} */
+
+/* .container {
+    display: grid;
+    height: 100vh;
+    gap: 10px;
+    border: 1px solid black;
+    /* grid-template-areas: "aaaa aaaa aaaa"
+        "cccc bbbb eeee"
+        "cccc dddd eeee"
+        "ffff ffff ffff"; */
+/* grid-template-columns: repeat(12, 1fr); */
+/* grid-template-rows: repeat(12, 1fr); */
+
+
+
+/* .box-1 {
+    grid-column: 1 / 13;
+    grid-row: 1 / 3;
+
+
+}
+
+.box-2 {
+    grid-column: 4 / 10;
+    grid-row: 3 / 5;
+}
+
+.box-3 {
+    grid-column: 1 / 4;
+    grid-row: 3 / 10;
+}
+
+.box-4 {
+    grid-column: 4 / 10;
+    grid-row: 5 / 10;
+}
+
+.box-5 {
+    grid-column: 10 / 13;
+    grid-row: 3 / 10;
+}
+
+.box-6 {
+    grid-column: 1 / 13;
+    grid-row: 10 / 13;
+} */
+
+/* .box-1 {
+    grid-area: aaaa;
+
+
+}
+
+.box-2 {
+    grid-area: bbbb;
+
+}
+
+.box-3 {
+    grid-area: cccc;
+
+}
+
+.box-4 {
+    grid-area: dddd;
+
+}
+
+.box-5 {
+    grid-area: eeee;
+
+}
+
+.box-6 {
+    grid-area: ffff;
+
+} */
+
+
+
+.container {
+    display: grid;
+    height: 100vh;
+    gap: 10px;
+    border: 1px solid black;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+
+}
+
+.box-1 {
+    grid-column: 1 / 13;
+    grid-row: 1 / 3;
+}
+
+.box-2 {
+    grid-column: 1 / 13;
+    grid-row: 3 / 5;
+}
+
+.box-3 {
+    grid-column: 1 / 4;
+    grid-row: 5 / 11;
+}
+
+.box-4 {
+    grid-column: 4 / 13;
+    grid-row: 5 / 11;
+}
+
+.box-5 {
+    grid-column: 1 / 4;
+    grid-row: 11 / 13;
+}
+
+.box-6 {
+    grid-column: 4 / 13;
+    grid-row: 11 / 13;
+}
