@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    /* background-image: url("./img/kitty.png"); */
+    background-image: url("./img/cute-girl.jpg");
+    background-size: contain;
+    /* background-size: 200px 200px; */
+    background-size: auto;
+    /* background-repeat: space; */
+    background-repeat: no-repeat;
+    /* background-position: -30px 200px; */
+    /* background-position: bottom right; */
+    background-origin: content-box;
+    border: 10px solid red;
+    padding: 30px;
+    border-style: dashed;
+    background-color: aqua;
+
+    height: 100vh;
+}
