@@ -1,0 +1,464 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    /* border: 1px solid #000; */
+}
+
+.navber {
+    padding: 50px 0px;
+}
+
+
+.d-flex {
+    display: flex;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+
+
+
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.menubar ul li {
+    margin-right: 40px;
+    font-size: 17px;
+}
+
+.menubar ul li:last-child {
+    margin-right: 0;
+}
+
+.menubar ul li a {
+    color: #68616D;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.5s;
+
+}
+
+.menubar ul li a:hover {
+    color: #000;
+}
+
+
+
+.btn {
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #1F0039;
+    background: #FC5546;
+    border-radius: 5px;
+    padding: 28px 36px;
+}
+
+.btn.btn-outline {
+    border: 1px solid #FC5546;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+.btn-outline:hover {
+    background: #FC5546;
+    color: #fff;
+}
+
+.button-area a i {
+    margin-left: 10px;
+}
+
+/* adding background image with gradient effect in banner area  */
+.banner {
+    background-image: linear-gradient(to right, rgb(175, 141, 221, 0.896), rgb(193, 54, 235, 0.700)), url("../img/banner.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: inherit;
+}
+
+
+.titile h1 {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    line-height: 120%;
+}
+
+.paragraph p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+
+
+}
+
+.banner-button a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+
+
+.btn-banner {
+    width: 222px;
+    display: block;
+    margin-top: 20px;
+    transition: 0.3s;
+
+}
+
+.btn-banner:hover {
+    background-color: transparent;
+    color: #1a1818;
+    border: 2px solid black;
+    text-decoration: none;
+}
+
+.banner-button a img {
+    width: 302px;
+    height: 436px;
+    margin-top: 50px;
+
+}
+
+.service-title h3 {
+    color: #FC5546;
+    font-size: 14px;
+    font-weight: 900;
+    margin-top: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.service-title h1 {
+
+    color: #1F0039;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 50px;
+    text-transform: capitalize;
+    line-height: 120%;
+    text-align: center;
+}
+
+.services-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* height: inherit; */
+
+}
+
+
+
+/* .table-left-item2 h3 {
+    color: #1F0039;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: start;
+}
+
+.table-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.table-right img {
+    width: 302px;
+    height: 436px;
+}
+
+.service-table {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.service-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+}
+
+.service-list-item {
+    grid-area: ;
+    background-color: #FFDDDA;
+
+
+} */
+
+.service {
+    border: 1px solid red;
+}
+
+.containerr {
+    width: 75%;
+    margin: 0 auto;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+[class ^="service-"] {
+    border: 1px solid black;
+}
+
+
+
+.service-title {
+    color: #FC5546;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.service-para {
+    color: #1F0039;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 120%;
+    margin-top: 50px;
+}
+
+.service-grid {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    position: relative;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.div3 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.div4 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.div5 {
+    grid-area: 1 / 3 / 3 / 4;
+}
+
+.service-grid img {
+    width: 200px;
+    height: 200px;
+}
+
+.service-grid .div5 img {
+
+    width: 302px;
+    height: 436px;
+}
+
+.service-grid .div5 a {
+    border: 1px solid rgb(36, 34, 34);
+    background-color: #FC5546;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 80%;
+    left: 70%;
+
+
+
+}
